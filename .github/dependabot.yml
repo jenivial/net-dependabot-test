@@ -1,18 +1,7 @@
 version: 2
 updates:
   - package-ecosystem: "nuget"
-    directory: "/ConsoleApp1/ConsoleApp1/"
-    schedule:
-      interval: "daily"
-    open-pull-requests-limit: 1
-    target-branch: "main"
-    labels:
-      - "nuget dependencies"
-      - "dependabot"
-      - "minor"
-
-  - package-ecosystem: "nuget"
-    directory: "/ConsoleApp1/ConsoleApp2/"
+    directory: "/ConsoleApp1/"
     schedule:
       interval: "daily"
     open-pull-requests-limit: 1
